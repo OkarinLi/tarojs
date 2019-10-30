@@ -1,6 +1,7 @@
 import Taro, { Component, Config } from '@tarojs/taro'
-import { View, Text } from '@tarojs/components'
+import { View } from '@tarojs/components'
 import './index.scss'
+import Agora from './Agora'
 
 export default class Index extends Component {
 
@@ -28,7 +29,7 @@ export default class Index extends Component {
   render () {
     return (
       <View className='index'>
-        <Text>Hello world!</Text>
+        <Agora />
       </View>
     )
   }
